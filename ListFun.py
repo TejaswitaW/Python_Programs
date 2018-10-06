@@ -41,3 +41,12 @@ a.extend(l)
 print(a)
 a.extend((1,2,3,4))
 print(a)
+#use of remove method
+a1=[10,20,30]
+print(a1)
+a1.remove(20)
+print(a1)
+#use of pop method
+print(a1.pop(1))
+print(a1)
+
