@@ -12,11 +12,11 @@ print(l.count(10))
 print(l.index(10))#if element is not in the list it gives error
 #print(l.index(100))
 #finding the object is present or not in the list
-t=int(input("Enter target to be found"))
-if t in l:
-    print("Given target is in list",(l.index(t)))
-else:
-    print("Target not found in list at index ")
+##t=int(input("Enter target to be found"))
+##if t in l:
+##    print("Given target is in list",(l.index(t)))
+##else:
+##    print("Target not found in list at index ")
 nl=[]
 #appending elements in the list
 nl.append(100)
@@ -49,4 +49,7 @@ print(a1)
 #use of pop method
 print(a1.pop(1))
 print(a1)
+r=[100,200,300,400,900]
+(r.reverse())
+print(r)
 
